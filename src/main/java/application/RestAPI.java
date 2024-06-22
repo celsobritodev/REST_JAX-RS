@@ -13,6 +13,9 @@ import resource.VeterinarioResource;
 @ApplicationPath("/rest")
 public class RestAPI extends Application {
 	
+	
+	
+	
 	private Set<Object> singletons = new HashSet<Object>();
 	
 	public RestAPI() throws ClassNotFoundException, SQLException {
@@ -23,6 +26,9 @@ public class RestAPI extends Application {
 	@Override
 	public Set<Object> getSingletons() {
 		return this.singletons;
-	} 
+	}
+	
+	
+	 
 	
 }
